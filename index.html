@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TotallyNotAScam.com</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <!-- header with name -->
+
+  <div class="container-fluid" id="header" style="background-image: url('https://pecb.com/article_docs/images/FEE5C383E853416AFF84467ECFE30220.png');">
+    <div class="row">
+      <div class="col-6" id="title">
+        <h1>Totally Not a Scam</h1>
+      </div>
+    </div>
+  </div> 
+  <br>
+  <div class = "container-fluid">
+  
+<!-- Form  -->
+      <form id="webForm">
+    
+        <div class="row">
+          
+          <h3>Enter to win $1,000,000,000,000!!!!</h3>
+          <p>Just put in some quick information and fill out a survey in order to win! </p>
+          
+          <div class="col-4">
+            <!-- input and label for name -->
+            <label for="Name">Name:</label><br>
+            <input id="Name"> <br>
+            
+            <!-- input and label for email -->
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"  placeholder="No spaces" ><br>
+            <!-- area for the response text for email -->
+            <p id = "emailEr"></p>
+            <!-- input and label for password -->
+            <label for="password">Email password:</label><br>
+            <input type="password" id="password" ><br><br>
+            <!-- labe and input for birthday with minimum and maximum date -->
+           <label for="birthday">When were you born?</label><br>
+           <input type="datetime-local" id="birthday" name="birthday"
+          value="2018-06-12T19:30" min="1800-06-07T00:00" max="2050-06-14T00:00" ><br><br>
+        </div>
+          <!-- New colum of info -->
+       <div class="col-4">
+        <!-- text area for banking info -->
+        <p>What is your banking info? (So we can send you the money)</p>
+        <input id="bankingInfo"><br><br>
+
+        <!-- text input for social security number -->
+        <label for="ssn">Social Security Number:</label>
+        <input type="text" id="ssn"  class="form-control" placeholder="Enter only numbers" ><br>
+
+       <br>
+       <br>
+       
+       <!-- A card that show up once the submit number is hit.  -->
+      <div class="card" id="subCard">
+        <div id="submission"></div>  
+    </div>
+        </div>
+
+
+      <!-- A new colum -->
+      <div class="col-4">
+        
+        
+        <br>
+        <!-- A select input for pet types -->
+       <label for="petType">What kind of pet do you have?</label>
+        <select name="petType" id="petType">
+          <option value="none">None</option>
+          <option value="Cat">Cat</option>
+          <option value="Dog">Dog</option>
+          <option value="Fish">Fish</option>
+        </select><br><br>
+
+        
+
+       <!-- A select for pet names that is different based on which pet type you pick -->
+         <label for="pets" class="form-label">What is your pet's name?</label>
+            <select
+              id="pets"
+              class="form-select"
+              name="pets"
+              disabled
+            >
+            </select><br>
+
+        
+       <!-- radio input -->
+        <p>Do you use your pet's name for passwords?</p>
+        <input type="radio" id="yes" name="pet" value="Yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="pet" value="No">
+        <label for="no">No</label><br>
+        <input type="radio" id="n/a" name="pet" value="N/A">
+        <label for="n/a">N/A</label>
+       
+      
+        </div>
+       
+      </div>
+       
+       
+       
+       
+       
+      
+       <!-- the buttons that include the submit button, reset button, and loading data button -->
+        <button type="submit" id="submit" >Submit</button>
+        <input type="reset" id="clear" value="Clear">
+        <button id="loadData">Load Data</button>
+
+        
+        <br><br>
+        
+        </form>
+        </div>
+      
+
+
+   
+   
+    
+
+  
+
+   
+
+  
+  <!-- body with cards of Not Scams -->
+  <div class="container-fluid" id="footer">
+    <h1>footer</h1>
+  </div>
+  <div class="container"></div>
+
+
+
+
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
+</body>
+</html>

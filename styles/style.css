@@ -1,0 +1,68 @@
+/* header styles */
+#header{
+    height: 200px;
+   padding: 2px;
+}
+
+/* body style */
+body{
+    background-color: whitesmoke;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
+}
+/* style for the title on the header */
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+/* the ssn input length */
+#ssn{
+    width: 190px;
+}
+
+/* banking info size */
+#bankingInfo{
+    height: 100px;
+    width: 270px
+}
+/* button postion */
+#submit{
+    position: relative;
+}
+#clear{
+    position: relative;
+}
+
+/* the size and style of the card that appears when submitted.  */
+#subCard{
+    height: 300px;
+    width: 500px;
+
+
+}
+.card{
+    display: none; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+
+}
+/* footer style */
+#footer{
+   position: fixed;
+    bottom: 0;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    
+}
