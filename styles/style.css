@@ -57,6 +57,10 @@ h1{
     z-index: 2;
 
 }
+/*hyper link style  */
+a{
+    color: white;
+}
 /* footer style */
 #footer{
     height: 130px;
