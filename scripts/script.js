@@ -120,7 +120,7 @@ function showCard() {
 $('#loadData').click(function(e) {
   e.preventDefault();
   console.log("clicked");
-  let jsonURL = "../demo.json";
+  let jsonURL = "https://github.com/QueerInSTEM/India/blob/main/demo.json";
   fetch(jsonURL)
     .then(response => {
       // Check if the fetch was successful
